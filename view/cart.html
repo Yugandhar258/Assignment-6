@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-Commerce Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./e-com.css">
+  <link href="/static/css/main.45f089b2.css" rel="stylesheet">
+</head>
+<body class="bg-white-100">
+  <div id="root">
+    <!-- Navbar -->
+    <header>
+      <nav class="bg-yellow-300 fixed top-0 z-100 w-screen">
+        <div class="w-full">
+          <div class="flex justify-between items-center h-20 max-w-6xl mx-auto px-6">
+            <a href="e-com.html">
+              <img src="https://shoppingcart-by-preetam.netlify.app/logo.png" class="w-[180px]" alt="logo">
+            </a>
+            <div class="flex items-center gap-4">
+              <a href="index.html" class="text-slate-100">Home</a>
+              <a href="./register.html" class="btn btn-outline-light">Register</a>
+              <a href="./login.html" class="btn btn-outline-light">Login</a>
+              <a href="./cart.html" class="add-to-cart-button">
+                <svg width="50" height="50" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#fff" fill-opacity=".01" d="M0 0h48v48H0z"/>
+                  <path d="M39 32H13L8 12h36l-5 20Z" fill="#2F88FF"/>
+                  <path d="M3 6h3.5L8 12m0 0 5 20h26l5-20H8Z" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="13" cy="39" r="3" stroke="#ffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="39" cy="39" r="3" stroke="#ffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mt-24">
+      <div class="row" id="product-list">
+        <!-- Products will be dynamically generated here -->
+      </div>
+      
+      <hr>
+
+      <h2 class="my-4">Shopping Cart</h2>
+      <div id="cart-items" class="mb-5">
+        <!-- Cart items will be rendered here -->
+      </div>
+    </main>
+
+    <!-- Footer -->
+   
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
